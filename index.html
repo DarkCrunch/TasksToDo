@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>ToDo App</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div class="container">
+      <div class="todo-header">
+        <h2>ToDo List</h2>
+        <img src="assets/media/img/notebook.gif" alt="notebook.gif" />
+      </div>
+      <div class="todo-body">
+        <input type="text" id="todoText" class="todo-input" placeholder="Add yor task" />
+        <i class="fa fa-plus" id="AddUpdateClick" onclick="CreateToDoData()"></i>
+      </div>
+      <ul id="list-items" class="list-items"></ul>
+    </div>
+  </main>
+  <footer></footer>
+  <script defer type="text/javascript" src="assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
